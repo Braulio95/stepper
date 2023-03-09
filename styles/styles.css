@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    box-sizing: content-box;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    margin: auto;
+    width: 60%;
+    height: min-content;
+    display: grid;
+    grid-template-rows: 15% auto 15%;
+    border-radius: 16px;
+    background-color:  white;
+}
+section.nav{
+    height: min-content;
+    background-color: rgb(249 250 251);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: grid;
+    grid-template-columns: 25% 25% 27% 23%;
+}
+section.nav > span{
+    padding: 5%;
+}
+section.nav > span > div.circle{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 1px 1px #aaaaaa;
+    color: rgb(79, 70, 229);
+    font-size: 2.4rem;
+    margin-right: 0;
+    display: inline-block;
+    
+}
+#circle1{
+    background-color: rgb(20, 184, 166);
+    color: white;
+}
+#text1{
+    color: rgb(20, 184, 166);
+}
+#line1{
+    border-top: 4px solid rgb(20, 184, 166);
+}
+#circle2{
+    background-color: rgb(79, 70, 229);
+    color: white;
+}
+#text2{
+    color: rgb(79, 70, 229);
+}
+section.nav > span > div.circle p {
+    margin-top: 23%;
+}
+section.nav > span > p{
+    width: min-content;
+    height: min-content;
+    color: grey;
+    font-size: 2.4rem;
+    margin: 8%;
+    display: inline-block;
+}
+section.nav > span > span{
+    border-top: 4px dashed grey;
+    width: 20%;
+    display: inline-block;
+    margin-top: 5%;
+}
+section.nav > span:last-child > div.circle{
+    margin-top: 6%;
+}
+section.nav > span:last-child > p{
+    margin-top: 1%;
+}
+section.content{
+    font-size: 1.7rem;
+    padding-top: 2%;
+    height: min-content;
+}
+
+section.content > span > h1{
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+section.content > span > p{
+    color: grey;
+    margin-bottom: 2%;
+    font-size: 2.5rem;
+}
+section.formulary{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto auto auto;
+    height: 20rem;
+    padding: 1%;
+    padding-bottom: 0;
+    height: min-content;
+}
+select{
+    width: 95%;
+    height: 35%;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+label{
+    color: grey;
+    font-size: 2.3rem;
+}
+select{
+    height: min-content;
+    font-size: 2rem;
+    padding: 4px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+span.check{
+    padding-left: 2%;
+}
+section.footer{
+    display: flex;
+    height: min-content;
+    padding: 16px;
+}
+section.footer > button{
+    margin: 0 auto;
+    width: 10%;
+    height: 4rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5%;
+    font-size: 2rem;
+    color: grey;
+}
+section.footer > button:first-child{
+    margin-right: 70%;
+}
+section.footer > button:last-child{
+    background-color: rgb(79, 70, 229);
+    color: white;
+}
